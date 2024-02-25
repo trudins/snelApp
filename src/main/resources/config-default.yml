@@ -1,0 +1,14 @@
+jpa:
+  generate-ddl: false
+  hibernate:
+    ddl-auto: update
+pa:
+  show-sql: true
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    maxActive: 100
+    password: espoir
+    url: jdbc:postgresql://localhost:5432/snelgeo?autoReconnect=true
+    username: postgres
+    validation-query: select 1;
